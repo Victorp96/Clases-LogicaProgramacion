@@ -17,16 +17,16 @@ FinSubProceso
 
 Algoritmo Comercializadora
 
-Definir prec_fab,ganancia,com_vend,prec_sin_IVA,prec_con_IVA,mto_IVA como real
-	
-leerPrecio(prec_fab)
+	Definir prec_fab,ganancia,com_vend,prec_sin_IVA,prec_con_IVA,mto_IVA como real
+		
+	leerPrecio(prec_fab)
 
-ganancia= Funcion_calcular(prec_fab,25/100)
-com_vend= Funcion_calcular(prec_fab,20/100)
-prec_sin_IVA=(prec_fab+ganancia+com_vend)
-mto_IVA=Funcion_calcular(prec_sin_IVA,0.15)
-prec_con_IVA=prec_sin_IVA+mto_IVA
+	ganancia= Funcion_calcular(prec_fab,25/100)
+	com_vend= Funcion_calcular(prec_fab,20/100)
+	prec_sin_IVA=(prec_fab+ganancia+com_vend)
+	mto_IVA=Funcion_calcular(prec_sin_IVA,0.15)
+	prec_con_IVA=prec_sin_IVA+mto_IVA
 
-MostrarSalidas(ganancia, com_vend, prec_sin_IVA, mto_IVA, prec_con_IVA)
+	MostrarSalidas(ganancia, com_vend, prec_sin_IVA, mto_IVA, prec_con_IVA)
 
 FinAlgoritmo
